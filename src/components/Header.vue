@@ -23,7 +23,7 @@ onUnmounted(() => clearInterval(interval));
 <template>
     <div class="h-[70vh]">
         <!--Menu bar-->
-        <div class="fixed z-50 w-screen h-[65px] bg-[#ffffff]-[10%] flex flex-row justify-between items-center">
+        <div class="fixed z-50 w-screen h-[65px] bg-[rgba(255,255,255,0.1)] flex flex-row justify-between items-center">
             <img src="/images/logo.png" alt="logo" class="w-[70px] h-[60px] opacity-[100%] mx-[15px]"></img>
             <i class="bi bi-list text-white text-[30px] mx-[15px]"></i>
         </div>
