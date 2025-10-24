@@ -1,9 +1,10 @@
 <script setup>
-import Header from '/src/components/Header.vue'
+import Home from '/src/pages/Home.vue'
 </script>
 
 <template>
     <Header />
+    <router-view />
 </template>
 
 <style scoped></style>
