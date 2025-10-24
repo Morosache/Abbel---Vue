@@ -19,7 +19,7 @@ const emit = defineEmits(['close']);
                 <li>About me</li>
                 <li>Most recent photos</li>
                 <li>Reviews</li>
-                <li>Contact</li>
+                <li>Contacts</li>
             </ol>
         </div>
     </div>
