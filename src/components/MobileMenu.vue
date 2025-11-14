@@ -1,0 +1,37 @@
+<script setup>
+import { X } from 'lucide-vue-next'
+</script>
+
+<template>
+    <!--Menu POP-->
+    <div class="fixed inset-0 bg-[#f5f5f5] flex flex-col px-[30px] py-[20px]">
+        <div>
+        <router-link to="/"> <X  class="justify-self-end"/></router-link>
+        </div>
+        <div class="flex flex-col mx-[30px]">
+            <ol>
+                <router-link to="/"><li>Home</li></router-link>
+                <router-link to="/"><li>About Me</li></router-link>
+                <router-link to="/"><li>Most recent photos</li></router-link>
+                <router-link to="/"><li>Reviews</li></router-link>
+                <router-link to="/"><li>Contacts</li></router-link>
+            </ol>
+        </div>
+    </div>
+
+
+
+</template>
+
+<style scoped>
+li {
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+li :hover {
+    font-size:25px;
+}
+</style>
