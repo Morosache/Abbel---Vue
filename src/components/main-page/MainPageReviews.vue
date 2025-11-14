@@ -13,15 +13,9 @@ import ReviewCard from './ReviewCard.vue';
             <p class="text-[15px]">Clients</p>
             <p class="text-[15px] text-[#F9C74F]">REVIEWS</p>
         </div>
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center pb-[20px]">
         <ReviewCard reviewName="Elisei Morosan" reviewTitle="Super fain" reviewDescription="Cel mai bun fotograf de pe zona Sucevei si de pe zona Bruxelles! Recomand cu incredere!"/>
         </div>
     </div>
 
 </template>
-
-<style scoped>
-.review-card {
-    box-shadow: 3px 3px 15px rgb(162, 162, 162);
-}
-</style>

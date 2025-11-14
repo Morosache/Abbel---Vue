@@ -31,6 +31,8 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/vite", "virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:4.1.17"],\
           ["@vitejs/plugin-vue", "virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:6.0.1"],\
           ["abbel-vue", "workspace:."],\
+          ["bootstrap", "virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:5.3.8"],\
+          ["bootstrap-icons", "npm:1.13.1"],\
           ["lucide-vue-next", "virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:0.553.0"],\
           ["tailwindcss", "npm:4.1.17"],\
           ["vite", "virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:7.2.2"],\
@@ -1619,6 +1621,8 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/vite", "virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:4.1.17"],\
           ["@vitejs/plugin-vue", "virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:6.0.1"],\
           ["abbel-vue", "workspace:."],\
+          ["bootstrap", "virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:5.3.8"],\
+          ["bootstrap-icons", "npm:1.13.1"],\
           ["lucide-vue-next", "virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:0.553.0"],\
           ["tailwindcss", "npm:4.1.17"],\
           ["vite", "virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:7.2.2"],\
@@ -1703,6 +1707,37 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../home/node/.yarn/berry/cache/birpc-npm-2.8.0-f015b949b0-10c0.zip/node_modules/birpc/",\
         "packageDependencies": [\
           ["birpc", "npm:2.8.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bootstrap", [\
+      ["npm:5.3.8", {\
+        "packageLocation": "../home/node/.yarn/berry/cache/bootstrap-npm-5.3.8-b7bef82d06-10c0.zip/node_modules/bootstrap/",\
+        "packageDependencies": [\
+          ["bootstrap", "npm:5.3.8"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:5.3.8", {\
+        "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-fdd7d12223/2/home/node/.yarn/berry/cache/bootstrap-npm-5.3.8-b7bef82d06-10c0.zip/node_modules/bootstrap/",\
+        "packageDependencies": [\
+          ["@popperjs/core", null],\
+          ["@types/popperjs__core", null],\
+          ["bootstrap", "virtual:06ecd417c5451ee06d0facd4fa8a933db4e68652c358b78904fc7c46940951812b605a4203b164f53c57a46aec6d80e0d25eeca31216af5814798b4cf3f32a1b#npm:5.3.8"]\
+        ],\
+        "packagePeers": [\
+          "@popperjs/core",\
+          "@types/popperjs__core"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bootstrap-icons", [\
+      ["npm:1.13.1", {\
+        "packageLocation": "../home/node/.yarn/berry/cache/bootstrap-icons-npm-1.13.1-ea10677638-10c0.zip/node_modules/bootstrap-icons/",\
+        "packageDependencies": [\
+          ["bootstrap-icons", "npm:1.13.1"]\
         ],\
         "linkType": "HARD"\
       }]\
