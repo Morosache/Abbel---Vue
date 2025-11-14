@@ -13,8 +13,9 @@ import ReviewCard from './ReviewCard.vue';
             <p class="text-[15px]">Clients</p>
             <p class="text-[15px] text-[#F9C74F]">REVIEWS</p>
         </div>
-
+        <div class="flex justify-center items-center">
         <ReviewCard reviewName="Elisei Morosan" reviewTitle="Super fain" reviewDescription="Cel mai bun fotograf de pe zona Sucevei si de pe zona Bruxelles! Recomand cu incredere!"/>
+        </div>
     </div>
 
 </template>
