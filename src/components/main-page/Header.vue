@@ -32,9 +32,9 @@ const showMenu = ref(false);
 <template>
     <div class="h-[70vh]">
         <!--Menu bar-->
-        <div class="fixed z-50 w-screen h-[65px] bg-[#ffffff]/[10%] flex flex-row justify-between items-center">
+        <div class="fixed z-50 w-screen h-[65px] bg-slate-600/20 flex flex-row justify-between items-center backdrop-blur-sm">
             <img src="/images/logo.png" alt="logo" class="w-[70px] h-[60px] opacity-[100%] mx-[30px]"></img>
-           <router-link to="/mobile-menu"><Menu class="mr-[30px]" /></router-link>
+           <router-link to="/mobile-menu"><Menu class="mr-[30px] text-[#ffffff]" /></router-link>
         </div>
          <transition name="fade" mode="out-in">
         <img :src="carouselphotos[currentIndex]" alt="carousel image" loading ="lazy" class="w-full h-full  object-cover transition-opacity duration-700"></img>
