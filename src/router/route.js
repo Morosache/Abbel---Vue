@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import MainPage from '@/pages/MainPage.vue';
-import MobileMenu from '@/components/main-page/main-page/MobileMenu.vue';
+import MobileMenu from '@/components/main-page/MobileMenu.vue';
 
 
 const routes = [

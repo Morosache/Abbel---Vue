@@ -19,7 +19,7 @@ const photos = [show8, show2, show3, show5, show10, show6, show9, show1, show7, 
 </script>
 
 <template>
-    <div class="p-[30px] mt-[30px]">
+    <div class="p-[30px] mt-[30px] mb-[20px]">
         <div class="flex flex-row items-center gap-1 border-l-2">
             <Images class="ml-[4px] w-[19px] h-[20px]" />
             <p class="text-[15px] font-light">My most</p>
@@ -34,12 +34,12 @@ const photos = [show8, show2, show3, show5, show10, show6, show9, show1, show7, 
         </div>
 
         <div class="mt-[20px] flex items-center flex-row gap-1">
-                <p class="text-[15px] font-medium">See all my</p>
-                <router-link to="/mobile-menu" class="flex flex-row items-center">
-                    <p class="text-[15px] font-medium text-[#F9C74F]"> PHOTOS</p>
-                    <MoveUpRight class="w-[15px] h-[15px] font-medium ml-[2px]" />
-                </router-link>
-            </div>
+            <p class="text-[15px] font-medium">See all my</p>
+            <router-link to="/mobile-menu" class="flex flex-row items-center">
+                <p class="text-[15px] font-medium text-[#F9C74F]"> PHOTOS</p>
+                <MoveUpRight class="w-[15px] h-[15px] font-medium ml-[2px]" />
+            </router-link>
+        </div>
 
     </div>
 </template>
@@ -49,9 +49,24 @@ const photos = [show8, show2, show3, show5, show10, show6, show9, show1, show7, 
     column-count: 1;
     column-gap: 16px;
 }
-@media (min-width: 640px) { .masonry { column-count: 2; } }
-@media (min-width: 768px) { .masonry { column-count: 3; } }
-@media (min-width: 1024px) { .masonry { column-count: 4; } }
+
+@media (min-width: 640px) {
+    .masonry {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .masonry {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1024px) {
+    .masonry {
+        column-count: 4;
+    }
+}
 
 .masonry-item {
     break-inside: avoid;
