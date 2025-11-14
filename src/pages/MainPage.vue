@@ -1,11 +1,11 @@
 <script setup>
 import Header from '@/components/main-page/main-page/Header.vue';
 import WhoAmI from '@/components/main-page/main-page/WhoAmI.vue';
-import Images from '@/components/main-page/main-page/Images.vue';
+import MostRecentPhotos from '@/components/main-page/main-page/MostRecentPhotos.vue';
 </script>
 
 <template>
 <Header />
 <WhoAmI />
-<Images />
+<MostRecentPhotos />
 </template>
